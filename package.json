@@ -1,0 +1,31 @@
+{
+  "name": "keywords_extraction",
+  "version": "1.0.0",
+  "description": "sample code to extract keywords from sentences",
+  "keywords": [
+    "keywords",
+    "natural",
+    "stopword"
+  ],
+  "homepage": "https://github.com/EmiRoberti77/ts_keywords_extraction#readme",
+  "bugs": {
+    "url": "https://github.com/EmiRoberti77/ts_keywords_extraction/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmiRoberti77/ts_keywords_extraction.git"
+  },
+  "license": "ISC",
+  "author": "Emi Roberti",
+  "type": "commonjs",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "stopword": "^3.1.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
