@@ -20,12 +20,16 @@
   "type": "commonjs",
   "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./dist/index.js",
+    "build": "npx tsc"
   },
   "dependencies": {
+    "natural": "^8.0.1",
     "stopword": "^3.1.4"
   },
   "devDependencies": {
+    "@types/natural": "^5.1.5",
+    "@types/stopword": "^2.0.3",
     "typescript": "^5.8.2"
   }
 }
