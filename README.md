@@ -7,14 +7,10 @@ This project demonstrates how to extract the top keywords from a given paragraph
 
 ## Installation
 1. Clone the repository
-```bash
-git clone <repository_url>
-cd <repository_directory>
-```
 
 2. Install dependencies
 ```bash
-npm install stopword natural
+npm i
 ```
 
 ## Usage
