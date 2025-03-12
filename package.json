@@ -24,8 +24,13 @@
     "build": "npx tsc"
   },
   "dependencies": {
+    "compromise": "^14.14.4",
+    "dotenv": "^16.4.7",
     "natural": "^8.0.1",
-    "stopword": "^3.1.4"
+    "openai": "^4.87.3",
+    "stopword": "^3.1.4",
+    "wink-eng-lite-web-model": "^1.8.1",
+    "wink-nlp": "^2.3.2"
   },
   "devDependencies": {
     "@types/natural": "^5.1.5",
